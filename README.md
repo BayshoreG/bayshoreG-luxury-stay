@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bayshore Luxury Stay</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Bayshore Luxury Stay</h1>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
+<img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa">
+<img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461">
+<img src="https://images.unsplash.com/photo-1521783988139-893ce4a72f78">
+
+</div>
+
+<h2>Book Your Stay</h2>
+
+<form id="bookingForm">
+
+<input placeholder="Name" id="name">
+
+<input placeholder="Email" id="email">
+
+<input placeholder="Phone" id="phone">
+
+<input type="date" id="checkin">
+
+<input type="date" id="checkout">
+
+<input type="number" id="guests" placeholder="Guests">
+
+<button>Book Now</button>
+
+</form>
+
+<script src="app.js"></script>
+
+</body>
+</html>
